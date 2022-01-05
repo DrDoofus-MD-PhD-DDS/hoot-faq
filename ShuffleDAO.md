@@ -6,11 +6,10 @@ That currency is the DAO's native token, the MINT.
 
 ## What does that mean?
 Through the DAO, we hope to encourage use of MINTs across other NFT projects, in lieu of them having to create their own internal currency.
-This saves them time and money, as well as, creating value in that token both for those communities. Ultimately, this also benefits the DAO by adding value to MINTs.
+This saves them time and money, as well as, creating built in value for those communities. Ultimately, this also benefits the DAO by adding value to MINTs.
 
 ## What are MINTs?
-MINTs are the native token of ShuffleDAO. MINTs are a free-floating token (not pegged in value to another token). MINTs are backed by ETH at a ratio of 10^6 MINTs per ETH, meaning that for every million MINTs, there is at least 1 ETH in the DAO treasury.
-
+MINTs are the native token of ShuffleDAO. MINTs are a free-floating token (not pegged in value to another token). MINTs are backed by ETH at a ratio of 10^6 MINTs per ETH, meaning that for every million MINTs, there is at least 1 ETH in the DAO treasury. The value of the MINT can rise above that ratio, but more MINTs are never minted without backing revenue of 1 ETH per one million MINTs.
 
 
 ## Who are the DAO members?
