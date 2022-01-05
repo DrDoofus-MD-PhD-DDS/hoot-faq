@@ -19,13 +19,9 @@ Who are the DAO members?
 
 How does the DAO generate revenue?
 
-
-
-
-The DAO will achieve this goal in three primary ways
-- 
-- Software developed for NFT creators
-- Support from developers, artists and advisors.
+How do partner projects work with the DAO?
+Software developed for NFT creators
+Support from developers, artists and advisors.
 
 #Road Map
 Outline
