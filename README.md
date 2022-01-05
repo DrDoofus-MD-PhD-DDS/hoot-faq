@@ -1,14 +1,14 @@
-#CryptoHoots Road Map and FAQ
+# CryptoHoots Road Map and FAQ
 
 
-#CryptoHoots
+## CryptoHoots
 CryptoHoots is a generative art NFT
 
 
-# ShuffleDAO
+## ShuffleDAO
 (see shuffledao.md)
 
-#Road Map
+## Road Map
 Outline
 
 
