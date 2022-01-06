@@ -16,6 +16,10 @@ MINTs are the native token of ShuffleDAO. MINTs are a free-floating token (not p
 
 ## Who are the DAO members?
 
+## Who can vote in the DAO?
+
+## What can the DAO vote on?
+
 ## How does the DAO generate revenue?
 
 ## How do partner projects work with the DAO?
@@ -24,3 +28,8 @@ Support from developers, artists and advisors.
 
 ## How does the core team get paid?
 
+## DAO tokens
+MINT
+sMINT
+veMINT
+bMINT
