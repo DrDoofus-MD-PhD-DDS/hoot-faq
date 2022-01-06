@@ -21,3 +21,6 @@ MINTs are the native token of ShuffleDAO. MINTs are a free-floating token (not p
 ## How do partner projects work with the DAO?
 Software developed for NFT creators
 Support from developers, artists and advisors.
+
+## How does the core team get paid?
+
