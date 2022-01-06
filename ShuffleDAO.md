@@ -21,9 +21,14 @@ MINTs can be staked in return for sMINTs at a 1:1 ratio. When revenue (bonding o
 ## What are veMINTs?
 sMINTs can be locked in a contract in return for veMINTs. The ve stands for voting escrow, which means the locked sMINTs are locked into the contract for a predtermined amount of time. In return, the veMINTs gain voting rights in the DAO.
 
+## Auction NFTs
+Every day, an NFT is auctioned by the DAO. The winning bidder joins all other NFT auction winners in splitting 25% of all bonding fees. The auction NFT winner also gets a premium on voting rights. An auction NFT win entitles the winner to 10 million veMINTs apart from any other veMINTs the owner possesses.
+
 ## Who are the DAO members?
 
 ## Who can vote in the DAO?
+
+## Two Tiers of Voting
 
 ## What can the DAO vote on?
 
