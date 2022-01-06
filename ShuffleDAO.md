@@ -13,6 +13,13 @@ Projects that partner with the DAO, either directly or via ShuffleMint NFT studi
 ## What are MINTs?
 MINTs are the native token of ShuffleDAO. MINTs are a free-floating token (not pegged in value to another token). MINTs are backed by ETH at a ratio of 10^6 MINTs per ETH, meaning that for every million MINTs, there is at least 1 ETH in the DAO treasury. The value of the MINT can rise above that ratio, but more MINTs are never minted without backing revenue of 1 ETH per one million MINTs.
 
+## When are MINTs minted?
+
+## What are sMINTs?
+MINTs can be staked in return for sMINTs at a 1:1 ratio. When revenue (bonding only?) comes into the DAO, the new value is distributed to sMINT holders via rebasing. That means, ETH comes into the DAO and a number of MINTs are minted. Then sMINTs are minted to return the ratio of MINT to sMINT to 1:1. The new sMINTs are sent to current sMINT holders proprtionally to maintain their current share of DAO value.
+
+## What are veMINTs?
+sMINTs can be locked in a contract in return for veMINTs. The ve stands for voting escrow, which means the locked sMINTs are locked into the contract for a predtermined amount of time. In return, the veMINTs gain voting rights in the DAO.
 
 ## Who are the DAO members?
 
