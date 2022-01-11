@@ -59,7 +59,7 @@ Quick Notes
 - veMINT is locked sMINT
 
 ## Auction NFTs
-Every day, an NFT is auctioned by the DAO. The winning bidder joins all other NFT auction winners in splitting 25% of all bonding fees. The auction NFT winner also gets a premium on voting rights. An auction NFT win entitles the winner to 10 million veMINTs apart from any other veMINTs the owner possesses.
+Every day, an NFT is auctioned by the DAO. These are candy themed NFTs, not NFTs from the CryptoHoots ecosystem. The winning bidder joins all other NFT auction winners in splitting 25% of all bonding fees. The auction NFT winner also gets a premium on voting rights. An auction NFT win entitles the winner to 10 million veMINTs apart from any other veMINTs the owner possesses.
 
 ## Who are the DAO members and voters?
 Anyone holding MINTs of any flavor is a DAO member.
@@ -67,7 +67,23 @@ Anyone holding MINTs of any flavor is a DAO member.
 - veMINT - entitled to voting rights on DAO treasury proposals
 - pMINT or auction NFTs - entitled to ShuffleMint governance votes
 
-## Two Tiers of Voting
+## Voting Tiers
+
+## What are Bonds?
+Bonds are IOUs that users may purchase with ETH for the promise of MINTs at a future date. Bonds are sold at a discount from the nominal ETH-MINT price depending on a formula taking into account the DAOs debt ratio and the policy team's need to alter the buy or sell pressure of MINTs. Bonds will vest in a period of five days at which time the number of MINTs will be available to the buyer. Only one bond can be held at a time. Bonds will be sold offering MINTs for ETH and MINTs for ETH-MINT LP tokens. Bonds are also how partner projects will buy into the DAO.
+
+## How are MINTs distributed to Partner Projects and Partner NFT holders?
+Project Partners will purchase bonds for using ShuffleMint utilities (including team member assistance). When vested, the MINTs will be staked and rebase rewards will be emitted to the project wallet. [This is still being considered] 
+
+## What is Protocol Owned Liquidity?
+
+
+## How does the CryptoHoots ecosystem fir into the DAO?
+CryptoHoot Alpha and Steampunk, CryptoHoot Baby and CyberPunk NFTs can be staked in ShuffleDAO. Staking NFTs from the Hoots ecosystem will get the staker a shared percent of the bonding fees. It is possible that staking a Hoot will get you an L2 NFT as escrow for your staked hoots and that it might mirror the hoot in some form by virtue of the on-chain DNA.
+
+- CryptoHoots and Alphas - 10%
+- Babies - 2%
+- CyberPunk - 3%
 
 
 ## How do Partner Projects work with the DAO?
