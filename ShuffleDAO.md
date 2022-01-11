@@ -40,15 +40,16 @@ We have MINT, sMINT, wsMINT, veMINT, pMINT, and bMINT. Described below.
 MINTs can be staked in return for sMINTs (staked MINTs) at a 1:1 ratio. The reason to stake MINTs (lock them in a contract where you cannot use them), is to allow the staker to share in DAO revenue via rebasing. When ETH comes into the DAO, a number of MINTs are minted at the current ETH value. For example, if one ETH came into the DAO and MINTs were trading at 1,000 MINTs per ETH, then 1,000 MINTs would be created. To keep the MINT:sMINT ratio at 1:1, sMINTs are then minted in equal amount. The new sMINTs are sent to current sMINT holders proprtionally to maintain their current share of DAO value (if you held 1% of the DAO, you would receive 1% of new sMINTs). This is rebasing. Staked MINTs can be unstaked at any time to receive MINTs, but rebasing will then cease for those MINTs. Without staking, it would be problematic to send new tokens to MINT holders (suppose MINTs were in a liquidity pool or other smart contract, for example).
 
 ## What is wsMINT?
-As noted in the sMINT FAQ above, unstaked tokens are difficult to deal with from a rebasing standpoint. The wsMINT (wrapped sMINT) is a flavor of MINT based on sMINT holdings. The wsMINT is wrapped in the sense that you can borrow against your sMINTs and use the wsMINTs external to the DAO ecosystem for other (defi, L2, etc.) purposes. An amount of wsMINT can be withdrawn to your wallet in proportion to your sMINT. The ratio is wsMINT to sMINT is time dependent and is called the Wrap Factor. If the Wrap Factor is, for example, 1.5, then number of wsMINTs = 1.5.sMINTs. If the factor is 2 when you wish to return your wsMINTs, you would get wsMINT/2 sMINTs in return. The Wrap Factor is determined from the ratio of value of 1 sMINT from the current time to the origin. So if MINT value now is 500,000 MINT per ETH and in the beginnine of the DAO it was 1,000,000 MINT per ETH, the Wrap Factor would be 2.
+As noted in the sMINT FAQ above, unstaked tokens are difficult to deal with from a rebasing standpoint. The wsMINT (wrapped sMINT) is a flavor of MINT based on sMINT holdings. The wsMINT is wrapped in the sense that you can borrow against your sMINTs and use the wsMINT external to the DAO ecosystem for other (defi, L2, etc.) purposes. An amount of wsMINT can be withdrawn to your wallet in proportion to your sMINT. The ratio of wsMINT to sMINT is time dependent and is called the Wrap Factor. If the Wrap Factor is, for example, 1.5, then number of wsMINTs = 1.5.sMINTs. If the factor is 2 when you wish to return your wsMINTs, you would get wsMINT/2 sMINTs in return. The Wrap Factor is determined from the ratio of value of 1 sMINT from the current time to the origin. So if MINT value now is 500,000 MINT per ETH and in the beginning of the DAO it was 1,000,000 MINT per ETH, the Wrap Factor would be 2.
 
 ## What is veMINT and how can MINT holders get voting rights?
-sMINTs can be locked in a contract in return for veMINTs. The ve stands for voting-escrow, which means the locked sMINTs are locked into the contract for a predtermined amount of time. In return, the veMINTs gain voting rights in the DAO. Note that veMINTs are in addition to the locked sMINTs, not a replacement for them, but they will decay over time. For example, if you stake 1 sMINT for six months at a lock rate of 10%, you will get 0.1 veMINTs which will linearly decay to 0 veMINTs over the six month lock period. At the end, your sMINT would unlock. At any time during the lock period, however, you could re-lock, gaining back maximum veMINTs.
-``1 sMINT locked for 2.0 years = 1.00 veMINT
+sMINTs can be locked in a contract in return for veMINTs. The ve stands for voting-escrow, which means the locked sMINTs are locked into the contract for a predtermined amount of time. In return, the veMINTs gain voting rights in the DAO. Note that veMINTs are in addition to the locked sMINTs, not a replacement for them, but they will decay over time. For example, if you stake 1 sMINT for six months at a lock rate of 25%, you will get 0.25 veMINTs which will linearly decay to 0 veMINTs over the six month lock period. At the end, your sMINT would unlock. At any time during the lock period, however, you could re-lock, gaining back maximum veMINTs.
+
+```1 sMINT locked for 2.0 years = 1.00 veMINT
 1 sMINT locked for 1.5 years = 0.75 veMINT
 1 sMINT locked for 1.0 years = 0.50 veMINT
 1 sMINT locked for 0.5 years = 0.25 veMINT
-``
+```
 
 Quick Notes
 - veMINT can be used in governance voting
@@ -69,7 +70,7 @@ Anyone holding MINTs of any flavor is a DAO member.
 ## Two Tiers of Voting
 
 
-## How do partner projects work with the DAO?
+## How do Partner Projects work with the DAO?
 Software developed for NFT creators
 Support from developers, artists and advisors.
 MINT given to project and NFT buyers
@@ -77,10 +78,3 @@ MINT given to project and NFT buyers
 ## How does the core team get paid?
 Core team, advisors, contributors and project partners get paid in private MINTs, pMINTs. These are MINTs that vest to regular MINTs over time and/or under conditions of DAO treasury fund goals.
 
-## DAO tokens
-MINT
-sMINT
-wsMINT
-veMINT
-pMINT
-bMINT
