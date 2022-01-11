@@ -2,6 +2,9 @@
 Note that the information in this FAQ is preliminary and subject to change
 AND IS NOT OFFICIAL OR ENDORSED BY HOOTS TEAM
 
+I am adding daily to this, so be careful about using it for anything for public view.
+Things will change, spelling corrected etc.
+
 ## What is ShuffleDAO?
 ShuffleDAO is the governance body created to promote use of the DAO's native token, the MINT, as a common currency among NFT communities.
 The DAO also governs one of the primary methods of introducing MINTs into other NFT communities, ShuffleMint NFT Studio.
@@ -77,7 +80,7 @@ Bonds are IOUs that users may purchase with ETH for the promise of MINTs at a fu
 Project Partners will purchase bonds for using ShuffleMint utilities (including team member assistance). When vested, the MINTs will be staked and rebase rewards will be emitted to the project wallet. [This is still being considered] 
 
 ## What is Protocol Owned Liquidity?
-
+Once liquidity pools are started, for example on Sushi, the DAO will sell bonds to buy the ETH-MINT LP tokens. Bonds will give a discount making it worthwhile to sell the token. The bond purchaser sells the token for a number of MINTs. When most of the LP tokens are bought by the DAO, it will own its liquidity and collect the fees on trades as another form of revenue.
 
 ## How does the CryptoHoots ecosystem fir into the DAO?
 CryptoHoot Alpha and Steampunk, CryptoHoot Baby and CyberPunk NFTs can be staked in ShuffleDAO. Staking NFTs from the Hoots ecosystem will get the staker a shared percent of the bonding fees. It is possible that staking a Hoot will get you an L2 NFT as escrow for your staked hoots and that it might mirror the hoot in some form by virtue of the on-chain DNA.
