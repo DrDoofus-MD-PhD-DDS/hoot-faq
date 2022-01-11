@@ -1,5 +1,6 @@
 # ShuffleDAO FAQ
 Note that the information in this FAQ is preliminary and subject to change
+AND IS NOT OFFICIAL OR ENDORSED BY HOOTS TEAM
 
 ## What is ShuffleDAO?
 ShuffleDAO is the governance body created to promote use of the DAO's native token, the MINT, as a common currency among NFT communities.
