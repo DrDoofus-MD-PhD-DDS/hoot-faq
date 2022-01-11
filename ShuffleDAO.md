@@ -3,7 +3,7 @@ Note that the information in this FAQ is preliminary and subject to change
 
 ## What is ShuffleDAO?
 ShuffleDAO is the governance body created to promote use of the DAO's native token, the MINT, as a common currency among NFT communities.
-The DAO also governs the one of the primary methods of introducing MINTs into other NFT communities, ShuffleMint NFT Studio.
+The DAO also governs one of the primary methods of introducing MINTs into other NFT communities, ShuffleMint NFT Studio.
 
 ## How will ShuffleDAO achieve its goal?
 Through the DAO, we hope to encourage use of MINTs across other NFT projects, in lieu of them having to create their own internal currency or utility token.
@@ -14,7 +14,7 @@ Projects that partner with the DAO, either directly or via ShuffleMint NFT studi
 ShuffleMint is a generative art creation utility and contract deployment system that comes with a hands on team ready to assist your NFT project as much or as little as you require. For more information, see the ShuffleMint FAQ.
 
 ## What are MINTs?
-MINTs are the native token of ShuffleDAO. MINTs are a free-floating token (not pegged in value to another token) that are backed by ETH at a ratio of most 1 million MINTs per ETH, meaning that for every one million MINTs, there is at least 1 ETH in the DAO treasury. The value of the MINT can rise relative to ETH, but more MINTs are never created without backing revenue of at least 1 ETH per one million. MINTs, or some derivative such as wrapped MINTs, will not only be part of the incentives for partner projects to reward their NFT communities, but will also be rewarded for staking CryptoHoots, purchasing bonds and buying auction NFTs.
+MINTs are the native token of ShuffleDAO. MINTs are a free-floating token (not pegged in value to another token) that are backed by ETH at a ratio of at most 1 million MINTs per ETH, meaning that for every one million MINTs, there is at least 1 ETH in the DAO treasury. The value of the MINT can rise relative to ETH, but more MINTs are never created without backing revenue of at least 1 ETH per one million. MINTs, or some derivative such as wrapped MINTs, will not only be part of the incentives for partner projects to reward their NFT communities, but will also be rewarded for staking CryptoHoots, purchasing bonds and buying auction NFTs.
 
 ## How will the DAO bring in revenue?
 ShuffleDAO has several revenue streams:
@@ -23,7 +23,7 @@ ShuffleDAO has several revenue streams:
 - Daily auction NFTs purchased with ETH to give the buyer governance rights in the DAO
 - Bonds purchased at discounted prices with ETH
 - Fees from ownership of the MINT-ETH liquidity pool
-- Yield from treasury investment in safe protocols like Rocket Pool's rETH or AAVE
+- Yield from treasury investment in safe defi protocols like Rocket Pool's rETH or AAVE
 
 ## When are MINTs minted?
 MINT is minted when:
@@ -44,11 +44,11 @@ As noted in the sMINT FAQ above, unstaked tokens are difficult to deal with from
 
 ## What is veMINT and how can MINT holders get voting rights?
 sMINTs can be locked in a contract in return for veMINTs. The ve stands for voting-escrow, which means the locked sMINTs are locked into the contract for a predtermined amount of time. In return, the veMINTs gain voting rights in the DAO. Note that veMINTs are in addition to the locked sMINTs, not a replacement for them, but they will decay over time. For example, if you stake 1 sMINT for six months at a lock rate of 10%, you will get 0.1 veMINTs which will linearly decay to 0 veMINTs over the six month lock period. At the end, your sMINT would unlock. At any time during the lock period, however, you could re-lock, gaining back maximum veMINTs.
-`1 sMINT locked for 2.0 years = 1.00 veMINT
+``1 sMINT locked for 2.0 years = 1.00 veMINT
 1 sMINT locked for 1.5 years = 0.75 veMINT
 1 sMINT locked for 1.0 years = 0.50 veMINT
 1 sMINT locked for 0.5 years = 0.25 veMINT
-`
+``
 
 Quick Notes
 - veMINT can be used in governance voting
