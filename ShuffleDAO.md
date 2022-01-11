@@ -3,15 +3,18 @@ Note that the information in this FAQ is preliminary and subject to change
 
 ## What is ShuffleDAO?
 ShuffleDAO is the governance body created to promote use of the DAO's native token, the MINT, as a common currency among NFT communities.
-The DAO also governs the primary method of introducing MINTs into other NFT communities, ShuffleMint NFT Studio.
+The DAO also governs the one of the primary methods of introducing MINTs into other NFT communities, ShuffleMint NFT Studio.
 
 ## How will ShuffleDAO achieve its goal?
-Through the DAO, we hope to encourage use of MINTs across other NFT projects, in lieu of them having to create their own internal currency.
+Through the DAO, we hope to encourage use of MINTs across other NFT projects, in lieu of them having to create their own internal currency or utility token.
 This saves them time and money, as well as, creating built in value for those communities. Ultimately, this also benefits the DAO by adding value to MINTs.
-Projects that partner with the DAO, either directly or via ShuffleMint NFT studio, will receive MINTs in return.
+Projects that partner with the DAO, either directly or via ShuffleMint NFT studio, will receive MINTs in return both for the project itself and the purchasers of their NFTs.
+
+## What is ShuffleMint NFT Studio and how can it help me?
+ShuffleMint is a generative art creation utility and contract deployment system that comes with a hands on team ready to assist your NFT project as much or as little as you require. For more information, see the ShuffleMint FAQ.
 
 ## What are MINTs?
-MINTs are the native token of ShuffleDAO. MINTs are a free-floating token (not pegged in value to another token) that are backed by ETH at a ratio of 1 million MINTs per ETH, meaning that for every million MINTs, there is at least 1 ETH in the DAO treasury. The value of the MINT can rise above that ratio, but more MINTs are never created without backing revenue of 1 ETH per one million. MINTs, or some derivative such as wrapped MINTs, will not only be part of the incentives for partner projects to reward their NFT communities, but also will be rewarded for staking CryptoHoots, purchasing bonds and buying auction NFTs.
+MINTs are the native token of ShuffleDAO. MINTs are a free-floating token (not pegged in value to another token) that are backed by ETH at a ratio of most 1 million MINTs per ETH, meaning that for every one million MINTs, there is at least 1 ETH in the DAO treasury. The value of the MINT can rise relative to ETH, but more MINTs are never created without backing revenue of at least 1 ETH per one million. MINTs, or some derivative such as wrapped MINTs, will not only be part of the incentives for partner projects to reward their NFT communities, but will also be rewarded for staking CryptoHoots, purchasing bonds and buying auction NFTs.
 
 ## How will the DAO bring in revenue?
 ShuffleDAO has several revenue streams:
@@ -19,7 +22,8 @@ Projects that partner with ShuffleMINT NFT Studio will pay ETH into the DAO for 
 Projects can buy MINTs with ETH directly to use in their communities internal tokenomics
 Daily auction NFTs purchased with ETH to give the buyer governance rights in the DAO
 Bonds purchased at discounted prices with ETH
-Fees from ownership of the MINT-ETH liquidity pool 
+Fees from ownership of the MINT-ETH liquidity pool
+Yield from treasury investment in safe protocols like Rocket Pool's rETH or AAVE
 
 ## When are MINTs minted?
 MINT is minted when:
@@ -29,14 +33,33 @@ a bond is purchased, an additional 25% of the total distributed MINT is minted f
 pMINT from team members, contributors, or investors vests
 an early auction NFT is sold, bonus MINT is distributed to the winner
 
-## What is sMINT?
-MINTs can be staked in return for sMINTs at a 1:1 ratio. When revenue (bonding only?) comes into the DAO, the new value is distributed to sMINT holders via rebasing. That means, ETH comes into the DAO and a number of MINTs are minted. Then sMINTs are minted to return the ratio of MINT to sMINT to 1:1. The new sMINTs are sent to current sMINT holders proprtionally to maintain their current share of DAO value.
+## What flavors of MINTs are there?
+We have MINT, sMINT, wsMINT, veMINT, pMINT, and bMINT. Described below.
+
+## What is sMINT and what is rebasing?
+MINTs can be staked in return for sMINTs (staked MINTs) at a 1:1 ratio. The reason to stake MINTs (lock them in a contract where you cannot use them), is to allow the staker to share in DAO revenue via rebasing. When ETH comes into the DAO, a number of MINTs are minted at the current ETH value. For example, if one ETH came into the DAO and MINTs were trading at 1,000 MINTs per ETH, then 1,000 MINTs would be created. To keep the MINT:sMINT ratio at 1:1, sMINTs are then minted in equal amount. The new sMINTs are sent to current sMINT holders proprtionally to maintain their current share of DAO value (if you held 1% of the DAO, you would receive 1% of new sMINTs). This is rebasing. Staked MINTs can be unstaked at any time to receive MINTs, but rebasing will then cease for those MINTs. Without staking, it would be problematic to send new tokens to MINT holders (suppose MINTs were in a liquidity pool or other smart contract, for example).
 
 ## What is wsMINT?
+As noted in the sMINT FAQ above, unstaked tokens are difficult to deal with from a rebasing standpoint. The wsMINT (wrapped sMINT) is a flavor of MINT based on sMINT holdings. 
 
 ## What is veMINT?
 sMINTs can be locked in a contract in return for veMINTs. The ve stands for voting-escrow, which means the locked sMINTs are locked into the contract for a predtermined amount of time. In return, the veMINTs gain voting rights in the DAO. Note that veMINTs are in addition to the locked sMINTs, not a replacement for them, but they will decay over time. For example, if you stake 1 sMINT for six months at a lock rate of 10%, you will get 0.1 veMINTs which will linearly decay to 0 veMINTs over the six month lock period. At the end, your sMINT would unlock. At any time during the lock persiod, however, you could re-lock, gaining back maximum veMINTs.
+1 sMINT locked for 4 years = 1 veMINT
 
+1 sMINT locked for 3 years = 0.75 veMINT
+
+1 sMINT locked for 2 years = 0.50 veMINT
+
+1 sMINT locked for 1 years = 0.25 veMINT
+
+
+veMINT has key differences compared to sMINT:
+
+veMINT can be used in governance voting.
+
+veMINT receives bonding fees. 
+
+veMINT is non-transferable
 ## Auction NFTs
 Every day, an NFT is auctioned by the DAO. The winning bidder joins all other NFT auction winners in splitting 25% of all bonding fees. The auction NFT winner also gets a premium on voting rights. An auction NFT win entitles the winner to 10 million veMINTs apart from any other veMINTs the owner possesses.
 
@@ -51,6 +74,7 @@ Every day, an NFT is auctioned by the DAO. The winning bidder joins all other NF
 ## How do partner projects work with the DAO?
 Software developed for NFT creators
 Support from developers, artists and advisors.
+MINT given to project and NFT buyers
 
 ## How does the core team get paid?
 
