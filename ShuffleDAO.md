@@ -27,11 +27,11 @@ ShuffleDAO has several revenue streams:
 
 ## When are MINTs minted?
 MINT is minted when:
-a change in treasury funds prompts rebasing for MINT stakers
-a bond is purchased, MINT is distributed to the buyer
-a bond is purchased, an additional 25% of the total distributed MINT is minted for the DAO
-pMINT from team members, contributors, or investors vests
-an early auction NFT is sold, bonus MINT is distributed to the winner
+- a change in treasury funds prompts rebasing for MINT stakers
+- a bond is purchased, MINT is distributed to the buyer
+- a bond is purchased, an additional 25% of the total distributed MINT is minted for the DAO
+- pMINT from team members, contributors, or investors vests
+- an early auction NFT is sold, bonus MINT is distributed to the winner
 
 ## What flavors of MINTs are there?
 We have MINT, sMINT, wsMINT, veMINT, pMINT, and bMINT. Described below.
@@ -44,26 +44,27 @@ As noted in the sMINT FAQ above, unstaked tokens are difficult to deal with from
 
 ## What is veMINT and how can MINT holders get voting rights?
 sMINTs can be locked in a contract in return for veMINTs. The ve stands for voting-escrow, which means the locked sMINTs are locked into the contract for a predtermined amount of time. In return, the veMINTs gain voting rights in the DAO. Note that veMINTs are in addition to the locked sMINTs, not a replacement for them, but they will decay over time. For example, if you stake 1 sMINT for six months at a lock rate of 10%, you will get 0.1 veMINTs which will linearly decay to 0 veMINTs over the six month lock period. At the end, your sMINT would unlock. At any time during the lock period, however, you could re-lock, gaining back maximum veMINTs.
-1 sMINT locked for 2.0 years = 1.00 veMINT
+`1 sMINT locked for 2.0 years = 1.00 veMINT
 1 sMINT locked for 1.5 years = 0.75 veMINT
 1 sMINT locked for 1.0 years = 0.50 veMINT
 1 sMINT locked for 0.5 years = 0.25 veMINT
+`
 
 Quick Notes
-veMINT can be used in governance voting
-veMINT receives bonding fees
-veMINT is non-transferable
-veMINT decays over time and has no instrinsic value
-veMINT is locked sMINT
+- veMINT can be used in governance voting
+- veMINT receives bonding fees
+- veMINT is non-transferable
+- veMINT decays over time and has no instrinsic value
+- veMINT is locked sMINT
 
 ## Auction NFTs
 Every day, an NFT is auctioned by the DAO. The winning bidder joins all other NFT auction winners in splitting 25% of all bonding fees. The auction NFT winner also gets a premium on voting rights. An auction NFT win entitles the winner to 10 million veMINTs apart from any other veMINTs the owner possesses.
 
 ## Who are the DAO members and voters?
 Anyone holding MINTs of any flavor is a DAO member.
-sMINT - entitled to rebasing rewards
-veMINT - entitled to voting rights on DAO treasury proposals
-pMINT or auction NFTs - entitled to ShuffleMint governance votes
+- sMINT - entitled to rebasing rewards
+- veMINT - entitled to voting rights on DAO treasury proposals
+- pMINT or auction NFTs - entitled to ShuffleMint governance votes
 
 ## Two Tiers of Voting
 
