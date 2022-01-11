@@ -5,7 +5,7 @@ Note that the information in this FAQ is preliminary and subject to change
 ShuffleDAO is the governance body created to promote use of the DAO's native token, the MINT, as a common currency among NFT communities.
 The DAO also governs the primary method of introducing MINTs into other NFT communities, ShuffleMint NFT Studio.
 
-## How will ShuffleDAO achieve it's goal?
+## How will ShuffleDAO achieve its goal?
 Through the DAO, we hope to encourage use of MINTs across other NFT projects, in lieu of them having to create their own internal currency.
 This saves them time and money, as well as, creating built in value for those communities. Ultimately, this also benefits the DAO by adding value to MINTs.
 Projects that partner with the DAO, either directly or via ShuffleMint NFT studio, will receive MINTs in return.
@@ -47,8 +47,6 @@ Every day, an NFT is auctioned by the DAO. The winning bidder joins all other NF
 ## Two Tiers of Voting
 
 ## What can the DAO vote on?
-
-## How does the DAO generate revenue?
 
 ## How do partner projects work with the DAO?
 Software developed for NFT creators
