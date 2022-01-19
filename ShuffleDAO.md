@@ -2,6 +2,8 @@
 Note that the information in this FAQ is preliminary and subject to change
 AND IS NOT OFFICIAL OR ENDORSED BY HOOTS TEAM
 
+
+
 I am adding daily to this, so be careful about using it for anything for public view.
 Things will change, spelling corrected etc.
 
@@ -70,6 +72,21 @@ Anyone holding MINTs of any flavor is a DAO member.
 - sMINT - entitled to rebasing rewards
 - veMINT - entitled to voting rights on DAO treasury proposals
 - pMINT or auction NFTs - entitled to ShuffleMint governance votes
+
+members and where they get monetary benefits: 
+core team/advisors
+stakers - bond fees, LP fees, yield, partner projects, auction NFTs (where does ETH coming into 
+partners - discounted MINT value + potentially emitted rewards if they pool rather than withdraw MINT allocation
+bonders - discounted MINT value
+mint holders (includes ecosystem partners) - speculation
+
+ETH/Revenue coming into DAO (so does not track, for example, MINT created as fees from bonding): Also buying MINT directly is not net ETH in so isn't here.
+Bonding - generates number of MINTs at discounted ETH-MINT value then returned to bond holder (no direct ETH to anyone else, in fact we lose discounted amount of ETH)
+auction NFT - generates number of MINTs at current ETH-MINT value then sends 20% as pMINTs to team (core+advisors) and 80% as sMINTs to stakers
+partner project - generates number of MINTs at current value, some MINTs returned to project, of remaining 20% to team as pMINT 80% to stakers as sMINT
+LP fees - generates number of MINTs at current ETH-MINT value then sends 20% as pMINTs to team (core+advisors) and 80% as sMINTs to stakers
+yield fees - generates number of MINTs at current ETH-MINT value then sends 20% as pMINTs to team (core+advisors) and 80% as sMINTs to stakers
+
 
 ## Voting Tiers
 
