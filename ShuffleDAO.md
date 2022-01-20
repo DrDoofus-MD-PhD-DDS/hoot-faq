@@ -24,7 +24,7 @@ MINTs are the native token of ShuffleDAO. MINTs are a free-floating token (not p
 ShuffleDAO has several revenue streams:
 - Projects that partner with ShuffleMINT NFT Studio will pay ETH into the DAO for use of studio utilities and team member help
 - Projects can buy MINTs with ETH directly to use in their communities internal tokenomics
-- Daily auction NFTs purchased with ETH to give the buyer governance rights in the DAO and a share of bonding revenue
+- Daily auction NFTs can be purchased with ETH to give the buyer governance rights in the DAO and a share of bonding fees
 - Bonds purchased at discounted prices with ETH
 - Fees from ownership of the MINT-ETH liquidity pool
 - Yield from treasury investment in safe DeFi protocols like Rocket Pool's rETH or AAVE
