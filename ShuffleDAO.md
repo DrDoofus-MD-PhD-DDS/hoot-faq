@@ -11,7 +11,7 @@ The DAO also governs one of the primary methods of introducing MINTs into other 
 
 ## How will ShuffleDAO achieve its goal?
 Through the DAO, we hope to encourage use of MINTs across other NFT projects, in lieu of them having to create their own internal currency or utility token.
-This saves them time and money, as well as, creating built in value for those communities. Ultimately, this also benefits the ShuffleDAO by adding value to MINTs.
+This saves them time and money, as well as, creating built in value for those communities. Ultimately, this also benefits ShuffleDAO by adding value to MINTs.
 Projects that partner with the DAO, either directly or via ShuffleMint NFT studio, will receive MINTs in return both for the project itself and the purchasers of their NFTs.
 
 ## What is ShuffleMint NFT Studio and how can it help me?
