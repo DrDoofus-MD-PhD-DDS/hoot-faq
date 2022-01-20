@@ -89,7 +89,8 @@ Anyone holding MINTs of any flavor, an auction NFT, a bond or is a team member i
 - veMINT/auction NFT holders - entitled to bond fee rebasing rewards and tier two (ShuffleMint + treasury governance) votes??
 - Core Team/pMINT?/advisors - all tier voting rights, 25% bonding fees, 20% treasury revenue
 
-*Questions: Would this mean yield and LP fees pay out to the team? Or when auction/Partner ETH comes in, 20% goes to team and 80% to treasury*
+*Questions: Would this mean yield and LP fees pay out to the team? Or when auction/Partner ETH comes in, 20% goes to team and 80% to treasury?
+Also, is there a special NFT or token that shows core team/team membership in teh DAO?*
 
 ## Where members get monetary benefits
 DAO Treasury - 80% of auction and partner project revenue, 25% of bond fees
