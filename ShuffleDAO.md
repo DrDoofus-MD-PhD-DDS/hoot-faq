@@ -42,7 +42,6 @@ ShuffleDAO supports: MINT, sMINT, wsMINT, veMINT, pMINT, and bMINT. Described be
 ## What is sMINT and what is rebasing?
 MINTs can be staked in return for sMINTs (staked MINTs) at a 1:1 ratio. The reason to stake MINTs (lock them in a contract where you cannot use or trade them), is to allow the staker to share in DAO bonding revenue via rebasing. When ETH from bonds comes into the DAO, a number of MINTs are minted at the current ETH value. For example, if one ETH came into the DAO and MINTs were trading at 1,000 MINTs per ETH, then 1,000 MINTs would be created. sMINTs are then minted in equal amount. The new sMINTs are sent to current sMINT holders proprtionally to maintain their current share of DAO value (if you held 1% of the DAO, you would receive 1% of new sMINTs). This is rebasing. Staked MINTs can be unstaked at any time to receive MINTs, but rebasing will then cease for those MINTs. Without staking, it would be problematic to send new tokens to MINT holders (suppose MINTs were in a liquidity pool or other smart contract, for example). Unless sMINT is sent to early auction NFT winners and pMINT vestings, there will be more MINT than sMINT.
 
-
 ## What is wsMINT?
 As noted in the sMINT FAQ above, unstaked tokens are difficult to deal with from a rebasing standpoint. The wsMINT (wrapped sMINT) is a flavor of MINT based on sMINT holdings. The wsMINT is wrapped in the sense that you can borrow against your sMINTs and use the wsMINT external to the DAO ecosystem for other (DeFi, L2, etc.) purposes. An amount of wsMINT can be withdrawn to your wallet in proportion to your sMINT. The ratio of wsMINT to sMINT is time dependent and is called the Wrap Factor. If the Wrap Factor is, for example, 1.5, then number of wsMINTs = 1.5.sMINTs. If the factor is 2 when you wish to return your wsMINTs, you would get wsMINT/2 sMINTs in return. The Wrap Factor is determined from the ratio of value of 1 sMINT from the current time to the origin. So if MINT value now is 500,000 MINT per ETH and in the beginning of the DAO it was 1,000,000 MINT per ETH, the Wrap Factor would be 2. This allows using wsMINTs outside the DAO ecosystem without losing staking rewards while still tracking value versus ETH.
 
@@ -73,55 +72,41 @@ Partner Projects are other NFT or related communities that require ShuffleMint S
 *Notes: That section will likely change a bit*
 
 ## What are Bonds?
-Bonds are IOUs that users may purchase with ETH for the promise of MINTs at a future date. Bonds are sold at a discount from the nominal ETH-MINT price depending on a formula taking into account the DAOs debt ratio and the policy team's need to alter the buy or sell pressure of MINTs. Bonds will vest in a period of five days at which time the number of MINTs will be available to the buyer. Only one bond can be held at a time. Bonds will be sold offering MINTs for ETH and MINTs for ETH-MINT LP tokens. Bonds are also how partner projects will buy into the DAO.
+Bonds are IOUs that users may purchase with ETH or ETH-MINT LP tokens for the promise of MINTs at a future date. Bonds are also how partner projects will buy into the DAO. Bonds are sold at a discount from the nominal ETH-MINT price depending on a formula taking into account the DAOs debt ratio and the policy team's need to alter the buy or sell pressure of MINTs. Bonds will linearly vest over a five day period, by the end of which all MINTs will be available to the buyer. Only one bond can be held at a time. When ETH from a bond is received by the treasury, a number of MINTs equal to the value of the deposited ETH is minted along with 25% extra which is distributed as rebase rewards to stakers. The bonding fee MINTs are distributed as follows: 25% to the core team, 25% to auction NFT holders, 25% to the DAO treasury, and 25% as sMINT to be shared between CryptoHoots NFT stakers.
 
+*Questions: Can only one bond be held?*
 
-## Who are the DAO members and voters?
-Anyone holding MINTs of any flavor is a DAO member.
-- sMINT - entitled to rebasing rewards
-- veMINT - entitled to voting rights on DAO treasury proposals
-- pMINT or auction NFTs - entitled to ShuffleMint governance votes
-
-members and where they get monetary benefits: 
-core team/advisors
-stakers - bond fees, LP fees, yield, partner projects, auction NFTs (where does ETH coming into 
-partners - discounted MINT value + potentially emitted rewards if they pool rather than withdraw MINT allocation
-bonders - discounted MINT value
-mint holders (includes ecosystem partners) - speculation
-
-ETH/Revenue coming into DAO (does not track, for example, MINT created as fees from bonding):
-
-
-## Where does DAO Despoited ETH go?
-ETH paid
-
-
-Also buying MINT directly is not net ETH in so isn't here.
-
-Bonding - generates number of MINTs at discounted ETH-MINT value then returned to bond holder (no direct ETH to anyone else, in fact we lose discounted amount of ETH)
-auction NFT - generates number of MINTs at current ETH-MINT value then sends 20% as pMINTs to team (core+advisors) and 80% as sMINTs to stakers
-partner project - generates number of MINTs at current value, some MINTs returned to project, of remaining 20% to team as pMINT 80% to stakers as sMINT
-LP fees - generates number of MINTs at current ETH-MINT value then sends 20% as pMINTs to team (core+advisors) and 80% as sMINTs to stakers
-yield fees - generates number of MINTs at current ETH-MINT value then sends 20% as pMINTs to team (core+advisors) and 80% as sMINTs to stakers
-
-Auction NFT + Partner Project ETH all goes to treasury?
-
-
-
-## Voting Tiers
-
-
-
-## What is Protocol Owned Liquidity?
-Once liquidity pools are started, for example on Sushi, the DAO will sell bonds to buy the ETH-MINT LP tokens. Bonds will give a discount making it worthwhile to sell the token. The bond purchaser sells the token for a number of MINTs. When most of the LP tokens are bought by the DAO, it will own its liquidity and collect the fees on trades as another form of revenue.
-
-## How does the CryptoHoots ecosystem fir into the DAO?
-CryptoHoot Alpha and Steampunk, CryptoHoot Baby and CyberPunk NFTs can be staked in ShuffleDAO. Staking NFTs from the Hoots ecosystem will get the staker a shared percent of the bonding fees. It is possible that staking a Hoot will get you an L2 NFT as escrow for your staked hoots and that it might mirror the hoot in some form by virtue of the on-chain DNA.
+## CryptoHoot NFTs in the DAO
+CryptoHoots Parliament, Alpha, Baby and CyberPunk NFTs will be able to be staked in ShuffleDAO. Staking Hoots allows for sharing in bonding fees. It is possible that staking a Hoot will get you an L2 NFT as escrow for your staked hoots and that it might mirror the hoot in some form by virtue of the on-chain DNA. The 25% of bonding fees the staked Hoots share will be distributed as follows:
 
 - CryptoHoots and Alphas - 10%
 - Babies - 2%
 - CyberPunk - 3%
 
+## Who are the DAO members and voters?
+Anyone holding MINTs of any flavor, an auction NFT, a bond or is a team member is a ShuffleDAO member.
+- sMINT and CryptoHoot stakers - entitled to bond fee rebasing rewards and possibly tier one (treasury governance) votes??
+- veMINT/auction NFT holders - entitled to bond fee rebasing rewards and tier two (ShuffleMint + treasury governance) votes??
+- Core Team/pMINT?/advisors - all tier voting rights, 25% bonding fees, 20% treasury revenue
+
+*Questions: Would this mean yield and LP fees pay out to the team? Or when auction/Partner ETH comes in, 20% goes to team and 80% to treasury*
+
+## Where members get monetary benefits
+DAO Treasury - 80% of auction and partner project revenue, 25% of bond fees
+Core team/advisors - 20% of auction and partner project revenue, 25% of bond fees
+MINT stakers (sMINT), CryptoHoot stakers, veMINT holders - 25% of bond fees
+Auction NFT Holders - 25% of bond fees
+Partner Projects - discounted MINT + potentially emitted rewards if they pool rather than withdraw MINT allocation
+Bonders - discounted MINT
+MINT holders (includes ecosystem partners) - speculation
+
+*Question: Does all LP and yield go to the treasury*
+
+## Voting Tiers
+*Undecided: There might be two voting tiers. One for ShuffleMint governance, for example, non-binding or binding suggestions for projects and general ShuffleMint management and another for DAO Treasury governance.*
+
+## What is Protocol Owned Liquidity?
+Once liquidity pools are started, for example on Sushi, the DAO will sell bonds to buy the ETH-MINT LP tokens. Bonds will give a discount making it worthwhile to sell the token. The bond purchaser sells the token for a number of MINTs. When most of the LP tokens are bought by the DAO, it will own its liquidity and collect the fees on trades as another form of revenue.
 
 ## What IV (Initial Value)?
 Initial Value is the value of MINT per ETH that we start with. We seed the liquidity pool and offer initial purchases with this value in mind. ShuffleDAO will begin with an IV of 4x Intrinsic Value. Intrinsic value is the minimum backing of MINT per ETH. ShuffleDAO intrinsic value is one million MINTs per ETH and at 4xIV, initial value is 250,000 MINTs per ETH. When ETH value is around $4000 USD, that gives a rough estimate of one MINT per US cent.
