@@ -33,8 +33,8 @@ ShuffleDAO has several revenue streams:
 MINT is minted:
 - to the purchaser when a bond is purchased
 - to the DAO (an additional 25% of the total distributed MINT to the purchaser) when a bond is purchased
-- an early auction NFT is sold, bonus MINT is distributed to the winner
-- pMINT from team members, contributors, or investors vests
+- to early auction NFT winners
+- when pMINT from team members, contributors, or investors vests
 
 ## What flavors of MINTs are there?
 ShuffleDAO supports: MINT, sMINT, wsMINT, veMINT, pMINT, and bMINT. Described below.
