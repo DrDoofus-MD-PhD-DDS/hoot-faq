@@ -112,6 +112,30 @@ Once liquidity pools are started, for example on Sushi, the DAO will sell bonds 
 ## What IV (Initial Value)?
 Initial Value is the value of MINT per ETH that we start with. We seed the liquidity pool and offer initial purchases with this value in mind. ShuffleDAO will begin with an IV of 4x Intrinsic Value. Intrinsic value is the minimum backing of MINT per ETH. ShuffleDAO intrinsic value is one million MINTs per ETH and at 4xIV, initial value is 250,000 MINTs per ETH. When ETH value is around $4000 USD, that gives a rough estimate of one MINT per US cent.
 
+Intrinsic Value describes the amount of ETH guaranteed to back one MINT. ShuffleDAO MINT has an IV of 0.000001 ETH, since one million MINTs are guaranteed to be backed by at least one ETH (in the treasury?).
+
+## Presale
+Some amount of MINTs will be available for presale. OHM did 50,000 for sale and 18,000 as initial liquidity. OHM then let everyone in their whitelist buy an equal share of the 50,000 (so 100 people would mean 500 OHM each). Their sale price was $4 per OHM. At full sale that gave them $200,000. They used $60,000 for treasury to back supply (the 50,000 OHM circulating would be backed at a little better than $1 per OHM) and $140,000 for initial liquidity. They put in 10,000 OHM with the $140,000 which means a start pool price of $14 per OHM and intial liquidity of $280,000 (if $140,000 and 10,000 OHM is the center, if it all went to $ it would be $280,000. If it all went to OHM it would be 20,000 OHM... 
+
+We might do 250,000 MINT per ETH (also 4x instrinsic value). So maybe we offer 50,000,000 MINTs. If everyone buys at 250,000 MINTs per ETH, then there would be bought 200 ETH of MINTs.
+
+Example for us:
+Intrinsic Value       1,000,000 MINTs = 1 ETH => 1 MINT = 0.000001 ETH @ $3000/ETH => 1 MINT approx 0.003 USD
+Initial Value (5xIV)    200,000 MINTs = 1 ETH
+One mint pack = 1000 MINTs = 0.001 ETH approx 3 USD
+
+MINT 80,000,000 MINT => 50,000,000 for presale and 30,000,000 initial liquidity
+IDO 50,000,000 MINT sale at 5xIV => 50,000,000 MINT/200,000 MINT/ETH = 250 ETH raised
+Sell IDO in mint packs
+     50,000,000/1000 = 50,000 MINT packs for 0.004 ETH each
+
+250 ETH raised at 100% buyout
+Need at least 50 ETH to back 50,000,000 circulating MINTs, but maybe deposit 100 ETH to treasury to back.
+150 ETH then goes to liquidity along with the 30,000,000 MINTs
+This gives starting pool of 30,000,000 MINTs with 150 ETH, so 200,000 MINTs per ETH and inital liquidity 300 ETH
+
+
+
 ## How does the core team get paid?
 Core team, advisors, contributors and project partners get paid in private MINTs, pMINTs. These are MINTs that vest to regular MINTs over time and/or under conditions of DAO treasury fund goals.
 
